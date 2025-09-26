@@ -1,0 +1,24 @@
+*{                            /*Universe Selector */
+  
+    background-color: aqua;
+    color: blue;
+}
+
+h2{                           /*Element Selector */
+   background-color:darkturquoise;
+   text-align: center;
+   color: brown;
+   font-style: italic;
+}
+
+#p1{
+    color: black;
+}
+
+.myparagraphh{
+    background-color:bisque;
+}
+
+
+
+
