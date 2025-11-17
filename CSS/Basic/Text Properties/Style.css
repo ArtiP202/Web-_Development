@@ -1,0 +1,11 @@
+.MyClass{
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    background-color: azure;
+    font-weight: 100;
+}
+h3{
+    font-size: 20px;
+    line-height: 50px;
+}
