@@ -1,0 +1,20 @@
+header{
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+a{
+    margin-right: 200px;
+}
+#logo{
+    color: brown;
+}
+.ContentBox{
+    height: 100px;
+    width: 100px;
+     border: 2px solid black;
+     display: inline-block;
+}
+#Content{
+   height: 650px;
+}
