@@ -1,0 +1,22 @@
+div{
+    height: 50px;
+    width: 50px;
+    margin: 1%;
+    padding: 10%;
+    /* background-color: rgba(red, green, blue, alpha); */
+}
+
+/* Color using rgba (Alpha Channel) */
+#Box1{
+    background-color: rgba(57, 134, 123,0.75);
+    display: inline;
+}
+#Box2{
+    background-color: rgba(95, 71, 156,0.75);
+    display: inline;
+}
+#Box3{
+    background-color: rgba(64, 23, 64,0.75);
+    display: inline;
+}
+
