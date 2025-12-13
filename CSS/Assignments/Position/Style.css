@@ -1,0 +1,33 @@
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(147, 106, 170);
+    border: 2px solid black;
+   }
+       /* Static Position */  
+   #Box1{
+      position:static ;
+   }
+
+   /* Relative Position */
+   #Box2{
+    position:Relative ;
+    top: 20px;
+
+   }
+
+   /*absolute position */
+   #Box3{
+     position:absolute ;
+   top: 500px;
+   left:10px
+   }
+
+   /* Fixed Position */
+   #Box4{
+     position:Fixed ;
+     top: 0px;
+     left :0px;
+     z-index: 1;
+   }
