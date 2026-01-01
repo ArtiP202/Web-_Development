@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    z-index: 10;
+    text-shadow: 0 0 15px gold;
+}
+
+h1 span {
+    display: block;
+    font-size: 5rem;
+    color: gold;
+}
+
+/* Sprinkle / Confetti */
+.sprinkle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: -10px;
+    animation: fall linear infinite;
+    opacity: 0.9;
+}
+
+.sprinkle:nth-child(odd) {
+    background: gold;
+    border-radius: 50%;
+}
+
+.sprinkle:nth-child(even) {
+    background: cyan;
+    transform: rotate(45deg);
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0) rotate(0deg);
+    }
+    to {
+        transform: translateY(110vh) rotate(360deg);
+    }
+}
