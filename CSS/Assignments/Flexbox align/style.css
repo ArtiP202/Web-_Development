@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#Container1{
+     height: 400px;
+     width: 700px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center; /*For Set Content like arround,center,between */
+     flex-wrap: wrap;         /*  for set given height and width */
+     /* align-items: center; */
+     align-content: start;
+}
+#Container2{
+     height: 400px;
+     width: 700px;
+     display: flex;
+     flex-direction: row;
+     justify-content:center;         
+    flex-wrap: wrap;                  
+     /* align-items: center; */
+     align-content: start;
+}
+
+#Box1{
+    background-color: rgb(135, 100, 167);
+}
+#Box2{
+    background-color: rgb(51, 198, 114);
+    height: 250px;
+}
+#Box3{
+    background-color: rgb(124, 56, 97);
+    height: 75px;
+    align-self: self-end; /* for self alignhave higher priority */
+}
+#Box4{
+    background-color: rgb(129, 114, 65);
+}
+#Box5{
+    background-color: rgb(76, 119, 143);
+}
