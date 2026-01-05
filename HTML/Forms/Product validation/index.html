@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Validation</title>
+</head>
+<body>
+    <form action="">
+
+<lable>Coustomer Name</lable>
+<input type="text" title="Enter Name 1 to 20 words" required pattern="[A-Za-z]{2,20}">
+<br><br><br>
+
+<lable>Product</lable>
+<select name="" id="" required>
+    <option value="">--Select <Option>
+    <option value="">Laptop</option>
+    <option value="">Mouse</option>
+    <option value="">Keyboard</option>
+    <option value="">Earphones</option>
+</select>
+<br><br><br>
+
+<lable>Quantity</lable>
+<input type="text" maxlength="5" minlength="1" required>
+<br><br><br>
+
+<lable>Payment Mode</lable>
+<input type="radio" name="Payment Mode">Cash
+<input type="radio" name="Payment Mode">Online
+<br><br><br>
+
+<button>Submit</button>
+
+    </form>
+</body>
+</html>
