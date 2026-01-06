@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#Container{
+     height: 400px;
+     width: 700px;
+     display: flex;
+     flex-direction: row;
+      align-content: start;
+}
+
+#Box1{
+    background-color: rgb(135, 100, 167);
+    flex-shrink: 2;
+}
+#Box2{
+    background-color: rgb(51, 198, 114);
+    /* flex-grow: 2; */
+}
+#Box3{
+    background-color: rgb(124, 56, 97);
+}
+#Box4{
+    background-color: rgb(129, 114, 65);
+}
+#Box5{
+    background-color: rgb(76, 119, 143);
+}
