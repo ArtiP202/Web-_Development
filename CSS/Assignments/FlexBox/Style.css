@@ -1,0 +1,28 @@
+ul{
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+#Outer{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Inner{
+    background-color: rgb(201, 12, 31);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
