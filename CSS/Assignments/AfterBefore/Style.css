@@ -1,0 +1,9 @@
+  p::after{
+        content: "Okkkk";
+        font-size: 10px;
+        background-color: burlywood;
+    }
+    h1::before{
+        content:"Hello";
+        font-size:12px;
+    }
